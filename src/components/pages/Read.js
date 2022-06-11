@@ -37,8 +37,8 @@ function Read() {
                 <td>{obj.phone}</td>
                 <td>{obj.address}</td>
                 <td>
-                    <button onClick={() => deletehandler(obj.id)} type="button" className="btn btn-warning mr-2">Delete</button>
-                    <button onClick={() => navigate(`/single/${obj.id}`)} type="button" className="btn btn-secondary">edit</button>
+                    <button onClick={() => deletehandler(obj.id)} type="button" className="btn btn-warning btn-sm mr-2">Button</button>
+                    <button onClick={() => navigate(`/single/${obj.id}`)} type="button" className="btn btn-sm btn-secondary">edit</button>
                 </td>
                 </tr>
             </tbody>
